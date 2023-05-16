@@ -15,6 +15,7 @@ void insertedStack(stack<int>&s,int t)
     if(s.top()>=t)
     {
         s.push(t);
+        return ;
     }
 
     int topE = s.top();
